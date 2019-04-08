@@ -1,0 +1,11 @@
+h=subplot(2,2,4);
+h11l1=h.Children(1);
+h11l1.Color='blue';
+h11l1.LineStyle='--';
+h11l2=h.Children(2);
+h11l2.Color='red';
+h11l2.LineStyle='--';
+h11l3=h.Children(3);
+h11l3.Color='blue';
+h11l4=h.Children(4);
+h11l4.Color='red';
