@@ -259,7 +259,7 @@ three interior equilibria, namely low tumor equilibrium $E_{1}$, intermediate tu
 (see Figure \ref{fig:Nullclines}). Since the intersections of nullclines
 are roots of a cubic polynomial, any results involving analytical
 expressions of parameters for stability conditions, if possible, would
-be unwieldy. Nevertheless, qualitative argument similar to that of in (\cite{murraymathematical} P226-230) can be made regarding to the local stability .
+be unwieldy. Nevertheless, qualitative argument similar to that of in (\cite{murraymathematical} Page 226-230) can be made regarding to the local stability .
 By doing so, we obtain the theorem below.
 \begin{theorem} \label{thm:ODE local stability}
 Suppose that $\rho>\gamma\beta$ and there are three interior equilibria $E_1,E_2$ and $E_3$ of (\ref{eq: uv }), then $E_1$ and $E_3$ are stable, and $E_2$ is unstable.   
@@ -307,7 +307,7 @@ u' & =\rho u(1-\frac{u}{K})-\gamma uv\\
 v' & =\beta-v+\frac{u(t-\tau)}{1+u(t-\tau)^{2}}.
 \end{align}
 \end{subequations}
-where $\tau \ge 0$ is the time delay of immune response. We are curious about any possible new dynamics due to the time delay in contrast to the ODE model, especailly if the time delay in immune response can lead to oscillatory solutions that may represent cancer growth episodes. 
+where $\tau \ge 0$ is the time delay of immune response. We are curious about any possible new dynamics due to the time delay in contrast to the ODE model, especially if the time delay in immune response can lead to oscillatory solutions that may represent cancer growth episodes. 
 
 \subsection{Analysis}
 First we want to establish positivity and boundedness of the system (\ref{eq:main delay}) given appropriate initial values. For initial values, we assume $v(0) \ge 0$ and $u(\theta) = \phi(\theta)$ for $\theta \in [-\tau,0]$ where $\phi(\theta) \in C([-\tau,0]): \phi(\theta) \ge 0$ and $\phi(0)>0$.
@@ -394,7 +394,7 @@ Next we study the global stability of the tumor free equilibrium.
 \begin{theorem}
 \textup{(global stability of tumor free equilibrium)} 
 
-If $\rho<\gamma\beta$, then $\lim_{t\to\infty}(u(t),v(t))=(0,\beta)$ 
+If $\rho<\gamma\beta$, then $\lim_{t\to\infty}(u(t),v(t))=(0,\beta)$. 
 \end{theorem}
 
 \begin{proof}
@@ -526,7 +526,7 @@ used to generate the plots: $\rho=2.5,\text{\ensuremath{\beta=0.02,\gamma=5,K=10
  \end{equation}
  where we note it is nonnegative for $u,v\in\mathcal{D}$. 
  
- In general, given an Ito process $dX(t)=b(X(t)dt+\sigma(X_t)dB(t)$ and if $f \in C_0^2(\mathbb{R}^n)$, then $Af(x) = \sum_i b_i(x) \frac{\partial f}{\partial x_i} + \frac{1}{2} \sum_{i,j} (\sigma \sigma^T)_{i,j}(x) \frac{\partial^2 f}{\partial x_i \partial x_j}$ (see Theorem 7.3.3 on Page 126 of \cite{OksendalSDEBook}).
+ In general, given an Ito process $dX(t)=b(X(t)dt+\sigma(X_t)dB(t)$ and if $f \in C_0^2(\mathbb{R}^n)$, then its generator $A$ acting on $f$ gives $$Af(x) = \sum_i b_i(x) \frac{\partial f}{\partial x_i} + \frac{1}{2} \sum_{i,j} (\sigma \sigma^T)_{i,j}(x) \frac{\partial^2 f}{\partial x_i \partial x_j}$$ (see Theorem 7.3.3 on Page 126 of \cite{OksendalSDEBook}).
  
  Consider the generator $A$ of (\ref{eq:sde}) and let $A$ act on $V$, i.e., $AV:\mathcal{D}\to\mathbb{R}$.
  Some calculation shows that 
